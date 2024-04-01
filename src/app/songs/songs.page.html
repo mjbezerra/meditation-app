@@ -1,0 +1,18 @@
+<ion-content [fullscreen]="true">
+  
+  <div id="headerSongs">
+      <button routerLink="/tabs/tab2"><ion-icon name="chevron-back-circle"></ion-icon></button>
+      <button><ion-icon name="volume-low"></ion-icon></button>
+  </div>
+
+  <div id="playElements">
+    <h1>4:45</h1>
+    <p>Respiração 4-7-8</p>
+    <ion-row id="playerBtn">
+      <button><ion-icon name="play-skip-back"></ion-icon></button>
+      <button (click)="counter()" id="playBtn"><ion-icon name="pause-outline"></ion-icon></button>
+      <button><ion-icon name="play-skip-forward"></ion-icon></button>
+    </ion-row>
+  </div>
+
+</ion-content>

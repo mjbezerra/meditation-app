@@ -1,0 +1,87 @@
+// Cabeçalho
+ion-content, ion-toolbar{
+    --background: none;
+    background-color: #dfe8cd;
+}
+
+#headerContainer{
+    padding: 0px 3vw;
+}
+
+#mainTitle{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4rem;
+    color: #121214;
+    text-align: center;
+}
+
+#threePoint{
+    --color: #121214;
+}
+
+// Conteúdo Principal
+ion-searchbar.custom {
+    --border-radius: 5px;
+    --background: #fff;
+}
+
+// Cards
+#cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1vh 3vw;
+    gap: 3vw;
+}
+
+.card{
+    width: 45vw;
+    height: 33vh;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vh 1.5vw;
+}
+
+.cardIcon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    top: 7%;
+    right: 6%;
+}
+
+.cardIcon .cardIcons{
+    color: #a5da3b;
+}
+
+.cardImg{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.cardInfs{
+    font-family: "Montserrat Alternates", sans-serif;
+    height: 30%;
+    box-sizing: border-box;
+    line-height: 5px;
+}
+
+.cardInfs h5{
+    font-size: 0.9rem;
+}
+
+.cardInfs p{
+    color: #999;
+    font-size: 0.8rem;
+}
+

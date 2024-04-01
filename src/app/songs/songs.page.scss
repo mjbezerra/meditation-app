@@ -1,0 +1,50 @@
+ion-content{
+    --background: none;
+    background: url(../../assets/img/wallpaper.jpg) no-repeat center center/cover;
+}
+
+#headerSongs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8vh 5vw;
+}
+
+#headerSongs button{
+    background-color: transparent;
+    font-size: 2rem;
+    color: snow;
+}
+
+// Player
+
+#playElements{
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    bottom: 10vh;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: firebrick;
+    color: white;
+
+}
+
+#playerBtn{
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px 0px;
+}
+
+#playerBtn button{
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: snow;
+}

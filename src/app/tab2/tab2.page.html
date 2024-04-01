@@ -1,0 +1,92 @@
+<!-- Links de uma fonte personalizada -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Cabeçalho -->
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-row id="headerContainer">
+      <ion-buttons>
+        <ion-button id="threePoint" slot="start"><ion-icon name="ellipsis-horizontal-sharp"></ion-icon></ion-button>
+      </ion-buttons>
+      <ion-title id="mainTitle">Praticar</ion-title>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Conteúdo Principal -->
+<ion-content [fullscreen]="true">
+  <ion-searchbar showCancelButton="focus" class="custom" placeholder="Escolher sons"></ion-searchbar>
+
+  <div id="cardContainer">
+
+    <!-- Cards -->
+    <div class="card" routerLink="/songs">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view1.jpeg" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Respiração 4-7-8</h5>
+        <p>5 minutos</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view2.jpg" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Limpando a mente</h5>
+        <p>10 minutos</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view3.jpg" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Consciência corporal</h5>
+        <p>15 minutos</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view4.jpg" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Respiração profunda</h5>
+        <p>7 minutos</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view5.jpg" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Sons de chuva</h5>
+        <p>20 minutos</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <ion-row class="cardIcon">
+        <ion-icon class="cardIcons" name="heart-sharp"></ion-icon>
+      </ion-row>
+      <img class="cardImg" src="../../assets/img/imgs-card/view6.webp" alt="uma paisagem de um rio, montanhas e uma casa de madeira">
+      <div class="cardInfs">
+        <h5 class="cardTitle">Massagem</h5>
+        <p>8 minutos</p>
+      </div>
+    </div>
+
+  </div>
+</ion-content>

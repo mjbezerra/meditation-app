@@ -1,0 +1,47 @@
+// Cabeçalho
+ion-toolbar{
+    --background: none;
+    background-color: #dfe8cd;
+}
+
+#headerContainer{
+    padding: 0px 3vw;
+}
+
+#mainTitle{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4rem;
+    color: #121214;
+    text-align: center;
+}
+
+ion-list{
+    color: black;
+    --background-color: none;
+    background-color: #f8f8ff;
+}
+
+ion-icon{
+    color: black;
+}
+
+#icon2{
+    color: black;
+}
+
+ion-item{
+    height: 65px;
+    --border-color: #f8f8ff;
+    --background: none;
+    background-color: #f8f8ff;
+}
+
+ion-title{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.label{
+    font-family: "Montserrat Alternates", sans-serif;
+    --background-color: none;
+    background-color: #f8f8ff;
+}
